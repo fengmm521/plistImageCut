@@ -12,8 +12,10 @@
 #import "ImageView.h"
 @interface AppDelegate : NSObject <NSApplicationDelegate, ImageViewDelegate>
 {
-    __weak NSTextField *_texturePath;
-    __weak NSTextField *_outputPath;
+//    __weak NSTextField *_texturePath;
+//    __weak NSTextField *_outputPath;
+   NSTextField *_texturePath;
+   NSTextField *_outputPath;
     ImageView *imgView;
 }
 

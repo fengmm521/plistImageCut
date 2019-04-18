@@ -19,6 +19,7 @@
         // Initialization code here.
         [self registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
         myImage = [NSImage imageNamed:@"tip.png"];
+        [myImage retain];
         [self setNeedsDisplay:YES];
     }
     

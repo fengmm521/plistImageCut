@@ -285,12 +285,18 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = aatc;
+				TargetAttributes = {
+					4D4FFFD3181F8FB800D18395 = {
+						DevelopmentTeam = VHWE67BKKW;
+					};
+				};
 			};
 			buildConfigurationList = 4D4FFFCF181F8FB800D18395 /* Build configuration list for PBXProject "CutPNG" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 4D4FFFCB181F8FB800D18395;
@@ -449,10 +455,13 @@
 		4D4FFFF2181F8FB800D18395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VHWE67BKKW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CutPNG/CutPNG-Prefix.pch";
 				INFOPLIST_FILE = "CutPNG/CutPNG-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -465,6 +474,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CutPNG/CutPNG-Prefix.pch";
 				INFOPLIST_FILE = "CutPNG/CutPNG-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
